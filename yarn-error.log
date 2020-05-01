@@ -1,29 +1,29 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add uuid4v
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add cors @types/cores
 
 PATH: 
-  C:\Users\Administrador.SRV01\Downloads\cmder\bin;C:\Users\Administrador.SRV01\Downloads\cmder\vendor\bin;C:\Users\Administrador.SRV01\Downloads\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Administrador.SRV01\Downloads\cmder\vendor\conemu-maximus5;C:\Users\Administrador.SRV01\Downloads\cmder\vendor\conemu-maximus5\ConEmu;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_211\bin;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Administrador.SRV01\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrador.SRV01\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrador.SRV01\AppData\Roaming\npm;C:\Users\Administrador.SRV01\AppData\Local\Yarn\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.3\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Administrador.SRV01\Downloads\cmder;C:\Users\Administrador.SRV01\Downloads\cmder\vendor\git-for-windows\cmd;C:\Users\Administrador.SRV01\Downloads\cmder\vendor\git-for-windows\mingw64\bin;C:\Users\Administrador.SRV01\Downloads\cmder\vendor\git-for-windows\usr\bin
+  C:\Program Files (x86)\cmder\bin;C:\Program Files (x86)\cmder\vendor\bin;C:\Program Files (x86)\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Program Files (x86)\cmder\vendor\conemu-maximus5;C:\Program Files (x86)\cmder\vendor\conemu-maximus5\ConEmu;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;"C:\Users\fselvino\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.7;";C:\Users\fselvino\AppData\Local\Android\Sdk\emulator;C:\Users\fselvino\AppData\Local\Android\Sdk\platform-tools;C:\Users\fselvino\AppData\Local\Android\Sdk\tools;C:\Users\fselvino\AppData\Local\Android\Sdk\tools\bin;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\fselvino\AppData\Local\Microsoft\WindowsApps;C:\Users\fselvino\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2019.1.3\bin;C:\Users\fselvino\AppData\Local\Android\Sdk\emulator;C:\Users\fselvino\AppData\Local\Android\Sdk\tools;C:\Users\fselvino\AppData\Local\Android\Sdk\tools\bin;C:\Users\fselvino\AppData\Local\Android\Sdk\platform-tools;C:\Users\fselvino\AppData\Local\Yarn\bin;C:\Users\fselvino\AppData\Roaming\npm;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\cmder
 
 Yarn version: 
-  1.19.0
+  1.17.3
 
 Node version: 
-  12.9.0
+  12.8.1
 
 Platform: 
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/uuid4v: Not found
-      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66027:18)
-      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140539:22)
-      at Request.emit (events.js:209:13)
-      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141511:10)
-      at Request.emit (events.js:209:13)
-      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141433:12)
-      at Object.onceWrapper (events.js:297:20)
-      at IncomingMessage.emit (events.js:214:15)
-      at endReadableNT (_stream_readable.js:1178:12)
+  Error: https://registry.yarnpkg.com/@types%2fcores: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:65939:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140464:22)
+      at Request.emit (events.js:203:13)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141436:10)
+      at Request.emit (events.js:203:13)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141358:12)
+      at Object.onceWrapper (events.js:291:20)
+      at IncomingMessage.emit (events.js:208:15)
+      at endReadableNT (_stream_readable.js:1168:12)
       at processTicksAndRejections (internal/process/task_queues.js:77:11)
 
 npm manifest: 
@@ -48,7 +48,8 @@ npm manifest:
       "multer": "^1.4.2",
       "pg": "^8.0.0",
       "reflect-metadata": "^0.1.13",
-      "typeorm": "^0.2.24"
+      "typeorm": "^0.2.24",
+      "uuidv4": "^6.0.7"
     },
     "devDependencies": {
       "@types/express": "4.17.3",
@@ -5505,10 +5506,22 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
     integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
   
+  uuid@7.0.3:
+    version "7.0.3"
+    resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
+    integrity sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
+  
   uuid@^3.3.2:
     version "3.4.0"
     resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
     integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+  
+  uuidv4@^6.0.7:
+    version "6.0.7"
+    resolved "https://registry.yarnpkg.com/uuidv4/-/uuidv4-6.0.7.tgz#15e920848e1afbbd97b4919bc50f4f2f2278f880"
+    integrity sha512-4mpYRFNqO22EckzxPSJ/+xjn9GgO6SAqEJ33yt23Y+HZZoZOt/6l4U4iIjc86ZfxSN2fSCGGmHNb3kiACFNd1g==
+    dependencies:
+      uuid "7.0.3"
   
   v8-compile-cache@^2.0.3:
     version "2.1.0"
