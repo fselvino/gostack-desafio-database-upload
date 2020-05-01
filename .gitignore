@@ -6,4 +6,4 @@ temp/
 
 tmp/*
 !tmp/.gitkeep
-ormconfig
+.ormconfig.json
